@@ -49,6 +49,27 @@ map
     :members:
     :undoc-members:
 
+ordered_set
+-----------
+
+Immutable ordered set of values, implemented using a B+ tree. Provides efficient
+insertion, deletion, and lookup while maintaining elements in sorted order.
+
+.. doxygenclass:: immer::ordered_set
+    :members:
+    :undoc-members:
+
+ordered_map
+-----------
+
+Immutable ordered mapping of keys to values, implemented using a B+ tree.
+Provides efficient insertion, deletion, and lookup while maintaining key-value
+pairs sorted by key.
+
+.. doxygenclass:: immer::ordered_map
+    :members:
+    :undoc-members:
+
 table
 -----
 
