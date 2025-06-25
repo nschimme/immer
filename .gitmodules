@@ -4,3 +4,6 @@
 [submodule "tools/sinusoidal-sphinx-theme"]
 	path = tools/sinusoidal-sphinx-theme
         url = https://github.com/arximboldi/sinusoidal-sphinx-theme.git
+[submodule "extern/BppTree"]
+	path = extern/BppTree
+	url = https://github.com/jeffplaisance/BppTree.git
